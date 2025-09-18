@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.spell-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.card {
+  background-color: rgb(243, 203, 203);
+  border: 2px solid #aaa;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.highlight {
+  background-color: #f4e1ff;
+  border-color: #ac52d2;
+}
+
+button {
+  margin-top: 0.5rem;
+  background-color: #f57676;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.highlight button {
+  background-color: #955ed0;
+}
